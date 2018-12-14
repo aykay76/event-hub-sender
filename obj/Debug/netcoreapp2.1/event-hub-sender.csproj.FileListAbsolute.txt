@@ -1,0 +1,12 @@
+/Users/alan/git/event-hub-sender/obj/Debug/netcoreapp2.1/event-hub-sender.csprojAssemblyReference.cache
+/Users/alan/git/event-hub-sender/obj/Debug/netcoreapp2.1/event-hub-sender.csproj.CoreCompileInputs.cache
+/Users/alan/git/event-hub-sender/obj/Debug/netcoreapp2.1/event-hub-sender.AssemblyInfoInputs.cache
+/Users/alan/git/event-hub-sender/obj/Debug/netcoreapp2.1/event-hub-sender.AssemblyInfo.cs
+/Users/alan/git/event-hub-sender/bin/Debug/netcoreapp2.1/event-hub-sender.dll.config
+/Users/alan/git/event-hub-sender/bin/Debug/netcoreapp2.1/event-hub-sender.deps.json
+/Users/alan/git/event-hub-sender/bin/Debug/netcoreapp2.1/event-hub-sender.runtimeconfig.json
+/Users/alan/git/event-hub-sender/bin/Debug/netcoreapp2.1/event-hub-sender.runtimeconfig.dev.json
+/Users/alan/git/event-hub-sender/bin/Debug/netcoreapp2.1/event-hub-sender.dll
+/Users/alan/git/event-hub-sender/bin/Debug/netcoreapp2.1/event-hub-sender.pdb
+/Users/alan/git/event-hub-sender/obj/Debug/netcoreapp2.1/event-hub-sender.dll
+/Users/alan/git/event-hub-sender/obj/Debug/netcoreapp2.1/event-hub-sender.pdb

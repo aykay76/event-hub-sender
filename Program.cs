@@ -10,9 +10,7 @@ namespace event_hub_sender
     {
         static int Main(string[] args)
         {
-            Console.CursorVisible = false;
-
-            // might want to run something async at some point, stick it on the thread pool
+            // boilerplate async main with CTRL+C cancellation
             var source = new CancellationTokenSource();
             Console.CancelKeyPress += (s, e) =>
             {

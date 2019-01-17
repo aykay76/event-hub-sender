@@ -38,11 +38,15 @@ namespace event_hub_sender
             int x = 0;
             while (token.IsCancellationRequested == false)
             {
-                EventData data = new EventData(System.Text.Encoding.UTF8.GetBytes($"{DateTime.Now.ToString("HH:mm:ss.fff")}"));
-                await client.SendAsync(data, "FixedPartition");
+                EventData data = new EventData(System.Text.Encoding.UTF8.GetBytes("{\"type\": \"input\",\"data\":\"goes here\"}"));
+                await client.SendAsync(data);
+
+                data = new EventData(System.Text.Encoding.UTF8.GetBytes("{\"type\": \"output\",\"data\":\"goes here\"}"));
+                await client.SendAsync(data);
 
                 // Thread.Sleep(100);
                 Console.Write("🗣 ");
+
                 if (++x == 50)
                 {
                     x = 0;
